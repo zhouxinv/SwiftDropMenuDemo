@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5C45B9A21E30BCFA003DB72D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C45B9A11E30BCFA003DB72D /* AppDelegate.swift */; };
+		5C45B9A41E30BCFA003DB72D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C45B9A31E30BCFA003DB72D /* ViewController.swift */; };
+		5C45B9A71E30BCFA003DB72D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C45B9A51E30BCFA003DB72D /* Main.storyboard */; };
+		5C45B9A91E30BCFA003DB72D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C45B9A81E30BCFA003DB72D /* Assets.xcassets */; };
+		5C45B9AC1E30BCFA003DB72D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C45B9AA1E30BCFA003DB72D /* LaunchScreen.storyboard */; };
+		5C45B9B71E30BCFA003DB72D /* SwiftDropMenuDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C45B9B61E30BCFA003DB72D /* SwiftDropMenuDemoTests.swift */; };
+		5C45B9C21E30BCFA003DB72D /* SwiftDropMenuDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C45B9C11E30BCFA003DB72D /* SwiftDropMenuDemoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5C45B9B31E30BCFA003DB72D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C45B9961E30BCFA003DB72D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C45B99D1E30BCFA003DB72D;
+			remoteInfo = SwiftDropMenuDemo;
+		};
+		5C45B9BE1E30BCFA003DB72D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C45B9961E30BCFA003DB72D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C45B99D1E30BCFA003DB72D;
+			remoteInfo = SwiftDropMenuDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5C45B99E1E30BCFA003DB72D /* SwiftDropMenuDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftDropMenuDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C45B9A11E30BCFA003DB72D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5C45B9A31E30BCFA003DB72D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5C45B9A61E30BCFA003DB72D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5C45B9A81E30BCFA003DB72D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5C45B9AB1E30BCFA003DB72D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5C45B9AD1E30BCFA003DB72D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C45B9B21E30BCFA003DB72D /* SwiftDropMenuDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftDropMenuDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C45B9B61E30BCFA003DB72D /* SwiftDropMenuDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDropMenuDemoTests.swift; sourceTree = "<group>"; };
+		5C45B9B81E30BCFA003DB72D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C45B9BD1E30BCFA003DB72D /* SwiftDropMenuDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftDropMenuDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C45B9C11E30BCFA003DB72D /* SwiftDropMenuDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDropMenuDemoUITests.swift; sourceTree = "<group>"; };
+		5C45B9C31E30BCFA003DB72D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5C45B99B1E30BCFA003DB72D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C45B9AF1E30BCFA003DB72D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C45B9BA1E30BCFA003DB72D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5C45B9951E30BCFA003DB72D = {
+			isa = PBXGroup;
+			children = (
+				5C45B9A01E30BCFA003DB72D /* SwiftDropMenuDemo */,
+				5C45B9B51E30BCFA003DB72D /* SwiftDropMenuDemoTests */,
+				5C45B9C01E30BCFA003DB72D /* SwiftDropMenuDemoUITests */,
+				5C45B99F1E30BCFA003DB72D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5C45B99F1E30BCFA003DB72D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C45B99E1E30BCFA003DB72D /* SwiftDropMenuDemo.app */,
+				5C45B9B21E30BCFA003DB72D /* SwiftDropMenuDemoTests.xctest */,
+				5C45B9BD1E30BCFA003DB72D /* SwiftDropMenuDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5C45B9A01E30BCFA003DB72D /* SwiftDropMenuDemo */ = {
+			isa = PBXGroup;
+			children = (
+				5C45B9A11E30BCFA003DB72D /* AppDelegate.swift */,
+				5C45B9A31E30BCFA003DB72D /* ViewController.swift */,
+				5C45B9A51E30BCFA003DB72D /* Main.storyboard */,
+				5C45B9A81E30BCFA003DB72D /* Assets.xcassets */,
+				5C45B9AA1E30BCFA003DB72D /* LaunchScreen.storyboard */,
+				5C45B9AD1E30BCFA003DB72D /* Info.plist */,
+			);
+			path = SwiftDropMenuDemo;
+			sourceTree = "<group>";
+		};
+		5C45B9B51E30BCFA003DB72D /* SwiftDropMenuDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				5C45B9B61E30BCFA003DB72D /* SwiftDropMenuDemoTests.swift */,
+				5C45B9B81E30BCFA003DB72D /* Info.plist */,
+			);
+			path = SwiftDropMenuDemoTests;
+			sourceTree = "<group>";
+		};
+		5C45B9C01E30BCFA003DB72D /* SwiftDropMenuDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5C45B9C11E30BCFA003DB72D /* SwiftDropMenuDemoUITests.swift */,
+				5C45B9C31E30BCFA003DB72D /* Info.plist */,
+			);
+			path = SwiftDropMenuDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5C45B99D1E30BCFA003DB72D /* SwiftDropMenuDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C45B9C61E30BCFA003DB72D /* Build configuration list for PBXNativeTarget "SwiftDropMenuDemo" */;
+			buildPhases = (
+				5C45B99A1E30BCFA003DB72D /* Sources */,
+				5C45B99B1E30BCFA003DB72D /* Frameworks */,
+				5C45B99C1E30BCFA003DB72D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftDropMenuDemo;
+			productName = SwiftDropMenuDemo;
+			productReference = 5C45B99E1E30BCFA003DB72D /* SwiftDropMenuDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5C45B9B11E30BCFA003DB72D /* SwiftDropMenuDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C45B9C91E30BCFA003DB72D /* Build configuration list for PBXNativeTarget "SwiftDropMenuDemoTests" */;
+			buildPhases = (
+				5C45B9AE1E30BCFA003DB72D /* Sources */,
+				5C45B9AF1E30BCFA003DB72D /* Frameworks */,
+				5C45B9B01E30BCFA003DB72D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5C45B9B41E30BCFA003DB72D /* PBXTargetDependency */,
+			);
+			name = SwiftDropMenuDemoTests;
+			productName = SwiftDropMenuDemoTests;
+			productReference = 5C45B9B21E30BCFA003DB72D /* SwiftDropMenuDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5C45B9BC1E30BCFA003DB72D /* SwiftDropMenuDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C45B9CC1E30BCFA003DB72D /* Build configuration list for PBXNativeTarget "SwiftDropMenuDemoUITests" */;
+			buildPhases = (
+				5C45B9B91E30BCFA003DB72D /* Sources */,
+				5C45B9BA1E30BCFA003DB72D /* Frameworks */,
+				5C45B9BB1E30BCFA003DB72D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5C45B9BF1E30BCFA003DB72D /* PBXTargetDependency */,
+			);
+			name = SwiftDropMenuDemoUITests;
+			productName = SwiftDropMenuDemoUITests;
+			productReference = 5C45B9BD1E30BCFA003DB72D /* SwiftDropMenuDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5C45B9961E30BCFA003DB72D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = GeWei;
+				TargetAttributes = {
+					5C45B99D1E30BCFA003DB72D = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 2GMPXW7YK8;
+						ProvisioningStyle = Automatic;
+					};
+					5C45B9B11E30BCFA003DB72D = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 2GMPXW7YK8;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5C45B99D1E30BCFA003DB72D;
+					};
+					5C45B9BC1E30BCFA003DB72D = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 2GMPXW7YK8;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5C45B99D1E30BCFA003DB72D;
+					};
+				};
+			};
+			buildConfigurationList = 5C45B9991E30BCFA003DB72D /* Build configuration list for PBXProject "SwiftDropMenuDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5C45B9951E30BCFA003DB72D;
+			productRefGroup = 5C45B99F1E30BCFA003DB72D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5C45B99D1E30BCFA003DB72D /* SwiftDropMenuDemo */,
+				5C45B9B11E30BCFA003DB72D /* SwiftDropMenuDemoTests */,
+				5C45B9BC1E30BCFA003DB72D /* SwiftDropMenuDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5C45B99C1E30BCFA003DB72D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C45B9AC1E30BCFA003DB72D /* LaunchScreen.storyboard in Resources */,
+				5C45B9A91E30BCFA003DB72D /* Assets.xcassets in Resources */,
+				5C45B9A71E30BCFA003DB72D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C45B9B01E30BCFA003DB72D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C45B9BB1E30BCFA003DB72D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5C45B99A1E30BCFA003DB72D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C45B9A41E30BCFA003DB72D /* ViewController.swift in Sources */,
+				5C45B9A21E30BCFA003DB72D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C45B9AE1E30BCFA003DB72D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C45B9B71E30BCFA003DB72D /* SwiftDropMenuDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C45B9B91E30BCFA003DB72D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C45B9C21E30BCFA003DB72D /* SwiftDropMenuDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5C45B9B41E30BCFA003DB72D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5C45B99D1E30BCFA003DB72D /* SwiftDropMenuDemo */;
+			targetProxy = 5C45B9B31E30BCFA003DB72D /* PBXContainerItemProxy */;
+		};
+		5C45B9BF1E30BCFA003DB72D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5C45B99D1E30BCFA003DB72D /* SwiftDropMenuDemo */;
+			targetProxy = 5C45B9BE1E30BCFA003DB72D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5C45B9A51E30BCFA003DB72D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C45B9A61E30BCFA003DB72D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5C45B9AA1E30BCFA003DB72D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C45B9AB1E30BCFA003DB72D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5C45B9C41E30BCFA003DB72D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5C45B9C51E30BCFA003DB72D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5C45B9C71E30BCFA003DB72D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2GMPXW7YK8;
+				INFOPLIST_FILE = SwiftDropMenuDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = autohome.SwiftDropMenuDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		5C45B9C81E30BCFA003DB72D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2GMPXW7YK8;
+				INFOPLIST_FILE = SwiftDropMenuDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = autohome.SwiftDropMenuDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		5C45B9CA1E30BCFA003DB72D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 2GMPXW7YK8;
+				INFOPLIST_FILE = SwiftDropMenuDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = autohome.SwiftDropMenuDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftDropMenuDemo.app/SwiftDropMenuDemo";
+			};
+			name = Debug;
+		};
+		5C45B9CB1E30BCFA003DB72D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 2GMPXW7YK8;
+				INFOPLIST_FILE = SwiftDropMenuDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = autohome.SwiftDropMenuDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftDropMenuDemo.app/SwiftDropMenuDemo";
+			};
+			name = Release;
+		};
+		5C45B9CD1E30BCFA003DB72D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 2GMPXW7YK8;
+				INFOPLIST_FILE = SwiftDropMenuDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = autohome.SwiftDropMenuDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SwiftDropMenuDemo;
+			};
+			name = Debug;
+		};
+		5C45B9CE1E30BCFA003DB72D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 2GMPXW7YK8;
+				INFOPLIST_FILE = SwiftDropMenuDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = autohome.SwiftDropMenuDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SwiftDropMenuDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5C45B9991E30BCFA003DB72D /* Build configuration list for PBXProject "SwiftDropMenuDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C45B9C41E30BCFA003DB72D /* Debug */,
+				5C45B9C51E30BCFA003DB72D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C45B9C61E30BCFA003DB72D /* Build configuration list for PBXNativeTarget "SwiftDropMenuDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C45B9C71E30BCFA003DB72D /* Debug */,
+				5C45B9C81E30BCFA003DB72D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5C45B9C91E30BCFA003DB72D /* Build configuration list for PBXNativeTarget "SwiftDropMenuDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C45B9CA1E30BCFA003DB72D /* Debug */,
+				5C45B9CB1E30BCFA003DB72D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5C45B9CC1E30BCFA003DB72D /* Build configuration list for PBXNativeTarget "SwiftDropMenuDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C45B9CD1E30BCFA003DB72D /* Debug */,
+				5C45B9CE1E30BCFA003DB72D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5C45B9961E30BCFA003DB72D /* Project object */;
+}
