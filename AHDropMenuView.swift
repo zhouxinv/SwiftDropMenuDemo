@@ -18,7 +18,7 @@ import UIKit
     /*
      *  multi select
      */
-    @objc optional func dropMenuViewDidMultiSelectIndexPaths(dropMenuView: AHDropMenuView, selIndexSet: NSIndexSet)
+    @objc optional func dropMenuViewDidMultiSelectIndexPaths(dropMenuView: AHDropMenuView, selIndexSet: Set<Int>)
     /*
      * headerView
      */
@@ -35,7 +35,7 @@ import UIKit
  class AHDropMenuView: UIView {
     public weak var delegate: AHDropMenuViewDelegate?
     ///展开
-    public var isShow: Bool?;
+    public var isShow = false
     ///多选
     public var isMultiselect: Bool?
     ///tableview当前的高度 44(defaultCellRowHeight) * 8(maxRowNum)
@@ -54,7 +54,7 @@ import UIKit
     /// 阴影遮盖View
     let blurredView: UIView = UIView()
     /// 当前被选中的index的集合
-    lazy var indexSet: NSMutableIndexSet = NSMutableIndexSet()
+    lazy var indexSet: Set<Int> = []
     /// 上一次选择的model
     var lastModel: AHDropMenuItem?
     
@@ -186,8 +186,7 @@ import UIKit
     
     func initialValue() {
         //初始化数据放在一起
-        self.arrDataSource = self.delegate?.dataSourceForDropMenu() 
-        isShow = false
+        self.arrDataSource = self.delegate?.dataSourceForDropMenu()
         self.isHidden = true
 
     }
@@ -223,9 +222,8 @@ import UIKit
             headerHeight = (self.delegate?.dropMenuHeaderViewHeight?()) ?? 0.0
             
             //tableView的headView的高度最多为60
-            if headerHeight > 60 {
-                headerHeight = 60
-            }
+            headerHeight = headerHeight > 60 ? 60 : headerHeight
+            
             currentHeadViewHeight = headerHeight
             currentTableViewHeight += headerHeight
             
@@ -286,13 +284,13 @@ extension AHDropMenuView: UITableViewDataSource, UITableViewDelegate {
             if indexSet.contains(indexPath.row) == true {
                 indexSet.remove(indexPath.row)
             } else {
-                indexSet.add(indexPath.row)
+                indexSet.insert(indexPath.row)
             }
             
             delegate?.dropMenuViewDidMultiSelectIndexPaths!(dropMenuView: self, selIndexSet: indexSet)
         } else {
-            indexSet.removeAllIndexes()
-            indexSet.add(indexPath.row)
+            indexSet.removeAll()
+            indexSet.insert(indexPath.row)
             delegate?.dropMenuViewDidSelectAtIndex!(dropMenuView: self, indexPath: indexPath)
             self.hide()
         }

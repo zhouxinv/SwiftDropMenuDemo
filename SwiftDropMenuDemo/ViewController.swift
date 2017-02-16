@@ -25,9 +25,9 @@ class ViewController: UIViewController, AHDropMenuViewDelegate {
         dropView = AHDropMenuView.init(viewController: self, delegate: self)
 //          dropView = AHDropMenuView()
         //2.多选
-//        dropView?.isMultiselect = true
+        dropView?.isMultiselect = true
         //3. 设置下拉菜单的最大高度
-//        dropView?.intergerTableViewMaxRowNum(maxRowNum: 4)
+        dropView?.intergerTableViewMaxRowNum(maxRowNum: 4)
         
     }
     
@@ -75,8 +75,8 @@ class ViewController: UIViewController, AHDropMenuViewDelegate {
     /*
      *  multi select
      */
-    func dropMenuViewDidMultiSelectIndexPaths(dropMenuView: AHDropMenuView, selIndexSet: NSIndexSet) {
-        for item in selIndexSet {
+    func dropMenuViewDidMultiSelectIndexPaths(dropMenuView: AHDropMenuView, selIndexSet: Set<Int>) {
+        for item in selIndexSet.sorted() {
             print("当前选择的包含有\(item)项")
  
         }
